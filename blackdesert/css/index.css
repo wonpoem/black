@@ -306,16 +306,16 @@ height: 200px; cursor:pointer; }
 background-size:cover; }
 
 
-.main_banner .main_inner { margin:0 auto; max-width:1375px; }
+.main_banner .main_inner { margin:0 auto; max-width:1375px; padding:0 40px; box-sizing:border-box; }
 
 .main_banner .main_inner .h2_wrap1 { padding: 130px 0; text-align: center; }
 
-.main_banner .main_inner .h2_wrap1 h2 { font-size:55px; color:#372c1d; }
+.main_banner .main_inner .h2_wrap1 h2 { font-size:53px; color:#372c1d; }
 .main_banner .main_inner .h2_wrap1 p { font-size:15px; color:#372c1d;  margin-top:50px; }
 
 .main_banner .main_inner .h2_wrap2 { margin-top:165px; }
 .main_banner .main_inner .h2_wrap2 div { float:left; }
-.main_banner .main_inner .h2_wrap2 div h2 { font-size:55px; color:#fff;  margin-top:120px; }
+.main_banner .main_inner .h2_wrap2 div h2 { font-size:53px; color:#fff;  margin-top:120px; }
 .main_banner .main_inner .h2_wrap2 div p { font-size:15px; color:#918a86;  margin-top:35px; }
 .main_banner .main_inner .h2_wrap2 div a { display:block; width:232px; height:58px; border:1px solid #352d29; font-size:15px; 
 line-height:58px; color: #fff; margin-top:52px; box-sizing: border-box; padding-left:15px; }
@@ -331,14 +331,40 @@ min-height:340px; width:100%; top:246px; }
 .main_inner .h2_wrap3 .wrap3_img .wrap3_backimg img { width:100%; position:absolute; bottom:0; }
 
 .main_inner .h2_wrap3 .wrap3_p { position:absolute; bottom:48px; z-index:33; margin-left:16px; }
-.main_inner .h2_wrap3 .wrap3_p h2 { color:#fff; font-size:55px;}
+.main_inner .h2_wrap3 .wrap3_p h2 { color:#fff; font-size:53px;}
 .main_inner .h2_wrap3 .wrap3_p p { color:#7d7b7b; font-size:15px; margin-top:38px; }
 .main_inner .h2_wrap3 .wrap3_p a { display:block; width:232px; height:58px; border:1px solid #352d29; font-size:15px; 
     line-height:58px; color: #fff; margin-top:39px; box-sizing: border-box; padding-left:15px; }
 
+.main_inner .h2_wrap4 { position:relative; height:730px; }
+.main_inner .h2_wrap4 .wrap4_field { position:absolute; width:441px; left:0; height:546px; 
+background:url(../img/main_feature_life_thumb_1.jpeg) no-repeat center; background-size:cover; 
+border-radius:3px; top:90px; }
+
+.main_inner .h2_wrap4 .life_shy { position:absolute; bottom:0; left:-22px; }
+.main_inner .h2_wrap4 .life_bird { position:absolute; top:40px; right:-87px; }
 
 
+.main_inner .h2_wrap4 .wrap4_p { width:416px; height:361px; position:absolute; 
+left:43%; right:43%; top:20%; }
+.main_inner .h2_wrap4 .wrap4_p h2 { font-size:53px; color:#fff; }
+.main_inner .h2_wrap4 .wrap4_p p { font-size:15px; color:#7d7b7b; margin-top:38px; }
+.main_inner .h2_wrap4 .wrap4_p a { display:block; width:232px; height:58px; border:1px solid #352d29; font-size:15px; 
+    line-height:58px; color: #fff; margin-top:39px; box-sizing: border-box; padding-left:15px; }
 
+.main_inner .h2_wrap4 .wrap4_fish { position:absolute; right:0; top:0; }
+.main_inner .h2_wrap4 .wrap4_horse { position:absolute; right:23px; bottom:25px; }
+
+/* 메인 허리 */
+
+.main_middle { width:100%; position:relative; }
+.main_middle .main_bg { width:100%; height:760px; background:url(../img/main_world_bg.jpeg) no-repeat center; 
+background-size:cover; }
+
+.main_middle .main_bg .middle_h2 { position:absolute; left:50%; top:50%;
+transform:translate(-50%,-50%); width:500px; text-align:center; }
+.main_middle .main_bg .middle_h2 h2 { color:#fff; font-size:53px; }
+.main_middle .main_bg .middle_h2 p { color:#cee3fa; font-size:15px; margin-top:35px; }
 
 
 
